@@ -338,19 +338,21 @@ footer.footer .social-link:hover {
 }
 .lt-blue{
     background-color: rgb(151,221,222);
+    color: white;
 }
 
-.lt-blue h2{
+/* .lt-blue h2{
     color:rgb(51,121,122);
-}
+} */
 
 .lt-yellow{
     background-color: rgb(254,253,175);
+    color: white;
 }
 
-.lt-yellow h2{
+/* .lt-yellow h2{
     color: rgb(234, 216, 21);
-}
+} */
 
 #logo {
     height: 35vh;
