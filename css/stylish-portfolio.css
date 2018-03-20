@@ -338,11 +338,44 @@ footer.footer .social-link:hover {
 }
 .lt-blue{
     background-color: rgb(151,221,222);
-    
+
 }
 .lt-blue h2{
     color:rgb(51,121,122);
 }
+
+.lt-yellow{
+    background-color: rgb(254,253,175)
+}
+
+.lt-red{
+    background-color: rgb(233,131,152)
+}
+
+.lt-orange{
+    background-color: rgb(241,151,107)
+}
+
+.lt-purple{
+    background-color: rgb(198,120,172)
+}
+
+.lt-periwinkle{
+    background-color: rgb(168,183,210)
+}
+
+.lt-lavender{
+    background-color: rgb(218,208,224)
+}
+
+.lt-green{
+  background-color: rgb(201,232,156)
+}
+
+
+
+
+
 
 #logo {
     height: 35vh;
@@ -355,7 +388,7 @@ footer.footer .social-link:hover {
 
   /*
 Colors From Flyer:
-    light purple: #b9a1cd 
+    light purple: #b9a1cd
     dark purple: #b1218a
     red: ec3747q
     orange: f8ad34
@@ -369,7 +402,7 @@ Colors From Flyer:
     rgb(233,131,152)	Red
     rgb(241,151,107)	Orange
     rgb(198,120,172)    Purple
-    rgb(168,183,210)	periwinkle 
+    rgb(168,183,210)	periwinkle
     rgb(218,208,224)	lavender
     rgb(201,232,156)	Green
 */
