@@ -350,6 +350,11 @@ footer.footer .social-link:hover {
     color: white;
 }
 
+.lt-red{
+  background-color: (233,131,152)
+  color: white;
+}
+
 /* .lt-yellow h2{
     color: rgb(234, 216, 21);
 } */
