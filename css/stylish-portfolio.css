@@ -339,16 +339,29 @@ footer.footer .social-link:hover {
   transition-duration: 0.5s, 0s;
   transition-delay: 0s, 0.5s;
 }
-.blue {
+
+/* Schedule */
+.schedule-red {
+  color: #f13c20;
+}
+/* ///////////////////// */
+
+/* About Section Styles */
+.about-blue {
   background-color: #4056a1;
   color: white;
   border: none;
   padding: 2%;
 }
 
-.paragraph-text-large {
+.about-paragraph {
   font-size: 1.1em;
 }
+.about-text {
+  font-size: 1.1em;
+}
+/* ///////////////////// */
+
 .lt-blue {
   background-color: rgb(151, 221, 222);
   color: white;
