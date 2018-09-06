@@ -353,7 +353,6 @@ footer.footer .social-link:hover {
   border: none;
   padding: 2%;
 }
-
 .about-paragraph {
   font-size: 1.1em;
 }
@@ -366,10 +365,6 @@ footer.footer .social-link:hover {
   background-color: rgb(151, 221, 222);
   color: white;
 }
-
-/* .lt-blue h2{
-    color:rgb(51,121,122);
-} */
 
 .lt-yellow {
   background-color: rgb(254, 253, 175);
