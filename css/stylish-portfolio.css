@@ -323,6 +323,7 @@ footer.footer .social-link:hover {
 .text-secondary {
   color: #ecb807 !important;
 }
+
 .card {
   border: none;
 }
@@ -376,19 +377,22 @@ footer.footer .social-link:hover {
   color: white;
 }
 
-.lt-red {
-  background-color: rgb(233, 131, 152);
-  color: white;
+/* Div Day Team Section */
+
+.text-black {
+  color: black !important;
 }
 
-.divdayteam {
-  img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+.team-lblue {
+  background-color: #C5CBE3;
 }
+
+.card-border {
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* //////////////////// */
 
 /* .lt-yellow h2{
     color: rgb(234, 216, 21);
@@ -402,6 +406,8 @@ footer.footer .social-link:hover {
 #events {
   background-color: rgb(201, 232, 156);
 }
+
+
 
 /*
 Colors From Flyer:
@@ -423,3 +429,130 @@ Colors From Flyer:
     rgb(218,208,224)	lavender
     rgb(201,232,156)	Green
 */
+
+
+
+/* Card styles for rotation */
+.rotate-container {
+  position: relative;
+}
+.rotate-container .card-front-1, .rotate-container .card-front-2, .rotate-container .card-front-3,
+ .rotate-container .card-front-4, .rotate-container .card-front-5, .rotate-container .card-front-6,
+  .rotate-container .card-front-7, .rotate-container .card-front-8, .rotate-container .card-back-1,
+ .rotate-container .card-back-2, .rotate-container .card-back-3, .rotate-container .card-back-4, 
+ .rotate-container .card-back-5, .rotate-container .card-back-6, .rotate-container .card-back-7,
+  .rotate-container .card-back-8 {
+  width: 100%;
+  height: 100%;
+  -webkit-transform: perspective(600px) rotateY(0deg);
+          transform: perspective(600px) rotateY(0deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: all 0.5s linear 0s;
+}
+.rotate-container .card-back-1, .rotate-container .card-back-2, .rotate-container .card-back-3,
+.rotate-container .card-back-4, .rotate-container .card-back-5, .rotate-container .card-back-6,
+.rotate-container .card-back-7, .rotate-container .card-back-8 {
+  -webkit-transform: perspective(1600px) rotateY(180deg);
+          transform: perspective(1600px) rotateY(180deg);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.rotate-container .rotate-card-front-1, .rotate-container .rotate-card-front-2, .rotate-container .rotate-card-front-3,
+.rotate-container .rotate-card-front-4, .rotate-container .rotate-card-front-5, .rotate-container .rotate-card-front-6,
+.rotate-container .rotate-card-front-7, .rotate-container .rotate-card-front-8 {
+  -webkit-transform: perspective(1600px) rotateY(-180deg);
+          transform: perspective(1600px) rotateY(-180deg);
+}
+.rotate-container .rotate-card-back-1, .rotate-container .rotate-card-back-2, .rotate-container .rotate-card-back-3,
+.rotate-container .rotate-card-back-4, .rotate-container .rotate-card-back-5, .rotate-container .rotate-card-back-6,
+.rotate-container .rotate-card-back-7, .rotate-container .rotate-card-back-8 {
+  -webkit-transform: perspective(1600px) rotateY(0deg);
+          transform: perspective(1600px) rotateY(0deg);
+}
+
+/* Modified card styles */
+.card {
+  box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
+}
+.card .card-header p {
+  margin: 0;
+}
+
+.card .card-background-1 {
+  background: url("https://images.pexels.com/photos/419293/pexels-photo-419293.jpeg?cs=srgb&dl=action-active-athlete-419293.jpg&fm=jpg");
+  height: 10em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .card-background-2 {
+  background: url("https://images.pexels.com/photos/1152661/pexels-photo-1152661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 10em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .card-background-3 {
+  background: url("https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 10em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .card-background-4 {
+  background: url("https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 10em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .card-background-5 {
+  background: url("https://images.pexels.com/photos/69773/uss-nimitz-basketball-silhouettes-sea-69773.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 10em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .card-background-6 {
+  background: url("https://images.pexels.com/photos/261185/pexels-photo-261185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 10em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .card-background-7 {
+  background: url("https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 10em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .card-background-8 {
+  background: url("https://images.pexels.com/photos/949131/pexels-photo-949131.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  height: 10em;
+  background-position: center center;
+  background-size: cover;
+}
+
+.card .avatar {
+  max-width: 8em;
+  max-height: 8em;
+  margin-top: -4em;
+  margin-bottom: 1em;
+  border: 4px solid white;
+  border-radius: 50%;
+  background: radial-gradient(#e3e3e3, #329A7C, #109381);
+}
+.card .btn {
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+.card .social-links li {
+  margin: 0.5em;
+}
+.card .social-links a {
+  font-size: 1.5em;
+}
