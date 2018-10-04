@@ -138,8 +138,13 @@ a:active {
     font-size: 5.5rem;
   }
 }
+
 #splash-btn {
   background-color: #4056A1;
+}
+
+.body-btn-red {
+  background-color: #F13C20;
 }
 
 /* ////////////////////////////// */
@@ -387,8 +392,8 @@ footer.footer .social-link:hover {
   color: black !important;
 }
 
-.team-lblue {
-  background-color: #C5CBE3;
+.team-ltan {
+  background-color: #EFE2BA;
 }
 
 .card-border {
@@ -478,9 +483,11 @@ Colors From Flyer:
 }
 
 /* Modified card styles */
-.card {
+.card-shadow {
   box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.5);
 }
+
+
 .card .card-header p {
   margin: 0;
 }
