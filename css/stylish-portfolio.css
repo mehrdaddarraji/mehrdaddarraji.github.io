@@ -101,7 +101,11 @@ a:active {
   font-weight: 800;
 }
 
-/*Splash Image*/
+.custom-nav-color {
+  background-color: #C5CBE3;
+}
+
+/* Splash Section */
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -115,7 +119,7 @@ a:active {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("../img/splash.png");
+    url("../img/website-backdrop.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,6 +138,11 @@ a:active {
     font-size: 5.5rem;
   }
 }
+#splash-btn {
+  background-color: #4056A1;
+}
+
+/* ////////////////////////////// */
 
 .navbar {
   background-color: #2eb2ff;
