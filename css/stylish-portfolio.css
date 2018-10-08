@@ -403,6 +403,18 @@ footer.footer .social-link:hover {
 
 /* //////////////////// */
 
+/* Speaker Bio Section */
+
+.speaker-navy {
+  background-color: #4056A1;
+}
+
+.white-text {
+  color: white;
+}
+
+/* //////////////////// */
+
 /* .lt-yellow h2{
     color: rgb(234, 216, 21);
 } */
@@ -566,4 +578,8 @@ Colors From Flyer:
 }
 .card .social-links a {
   font-size: 1.5em;
+}
+
+.bottom-red {
+  background-color: #F13C20;
 }
