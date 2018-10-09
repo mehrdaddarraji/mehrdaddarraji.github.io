@@ -147,10 +147,16 @@ a:active {
   background-color: #F13C20;
 }
 
+.hacs-logo {
+  height: auto;
+  width: 5rem;
+}
+
 /* ////////////////////////////// */
 
 .navbar {
-  background-color: #2eb2ff;
+  background-color: #4056A1;
+  color: white;
 }
 
 .menu-toggle {
