@@ -143,6 +143,10 @@ a:active {
   background-color: #4056A1;
 }
 
+#splash-date-text {
+  color: #EFE2BA;
+}
+
 .body-btn-red {
   background-color: #F13C20;
 }
